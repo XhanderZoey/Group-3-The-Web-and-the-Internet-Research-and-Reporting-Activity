@@ -1,0 +1,1017 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/">
+    <bib:Article rdf:about="https://doi.org/10.1021/acs.chemrev.1c00107">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0009-2665"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Keith</foaf:surname>
+                        <foaf:givenName>John A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vassilev-Galindo</foaf:surname>
+                        <foaf:givenName>Valentin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cheng</foaf:surname>
+                        <foaf:givenName>Bingqing</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chmiela</foaf:surname>
+                        <foaf:givenName>Stefan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gastegger</foaf:surname>
+                        <foaf:givenName>Michael</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Müller</foaf:surname>
+                        <foaf:givenName>Klaus-Robert</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tkatchenko</foaf:surname>
+                        <foaf:givenName>Alexandre</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_28"/>
+        <dc:title>Combining Machine Learning and Computational Chemistry for Predictive Insights Into Chemical Systems</dc:title>
+        <dcterms:abstract>Machine learning models are poised to make a transformative impact on chemical sciences by dramatically accelerating computational algorithms and amplifying insights available from computational chemistry methods. However, achieving this requires a confluence and coaction of expertise in computer science and physical sciences. This Review is written for new and experienced researchers working at the intersection of both fields. We first provide concise tutorials of computational chemistry and machine learning methods, showing how insights involving both can be achieved. We follow with a critical review of noteworthy applications that demonstrate how computational chemistry and machine learning can be used together to provide insightful (and useful) predictions in molecular and materials modeling, retrosyntheses, catalysis, and drug design.</dcterms:abstract>
+        <dc:date>2021-08-25</dc:date>
+        <z:libraryCatalog>ACS Publications</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://doi.org/10.1021/acs.chemrev.1c00107</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-04-06 08:26:51</dcterms:dateSubmitted>
+        <dc:description>Publisher: American Chemical Society</dc:description>
+        <bib:pages>9816-9872</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0009-2665">
+        <prism:volume>121</prism:volume>
+        <dc:title>Chemical Reviews</dc:title>
+        <dc:identifier>DOI 10.1021/acs.chemrev.1c00107</dc:identifier>
+        <prism:number>16</prism:number>
+        <dcterms:alternative>Chem. Rev.</dcterms:alternative>
+        <dc:identifier>ISSN 0009-2665</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_28">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://pubs.acs.org/doi/pdf/10.1021/acs.chemrev.1c00107</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-04-06 08:26:56</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_30">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bergwerf</foaf:surname>
+                        <foaf:givenName>Herman</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_29"/>
+        <dc:title>MolView: an attempt to get the cloud into chemistry classrooms</dc:title>
+        <dcterms:abstract>MolView is a web application which helps students and teachers to visualize molecular structures and view their properties. There are numerous databases publicly available to provide the required data such as PubChem, ChemSpider, ChEMBL, DrugBank, the Crystallography Open Database,1 and many more.2 3 Currently, MolView uses PubChem, RCSB, the Crystallography Open Database, the Chemical Identiﬁer Resolver,4 and the NIST WebBook5 to retrieve data. MolView oﬀers a simple search interface to ﬁnd small molecules, proteins and crystal structures in these databases. MolView uses JavaScript libraries, that use modern web technologies such as WebGL, to visualize these structures. In the past year I have designed a new version of this application from the ground up to facilitate the implementation of new databases and tools. Along with a new architecture and user interface, this version will include internationalization, interactive instructions, advanced search tools, more import/export tools, and more presentation tools. I also intend to include more computational chemistry tools to make the analysis and processing of complex data easier and more fun.</dcterms:abstract>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_29">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://molview.com/about/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_32"/>
+        <dc:title>MolView - About</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://molview.com/about/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-04-06 16:02:12</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_32">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>MolView - About</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://molview.com/about/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-04-06 16:02:13</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://doi.org/10.1186/1758-2946-4-17">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1758-2946"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hanwell</foaf:surname>
+                        <foaf:givenName>Marcus D.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Curtis</foaf:surname>
+                        <foaf:givenName>Donald E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lonie</foaf:surname>
+                        <foaf:givenName>David C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vandermeersch</foaf:surname>
+                        <foaf:givenName>Tim</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zurek</foaf:surname>
+                        <foaf:givenName>Eva</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hutchison</foaf:surname>
+                        <foaf:givenName>Geoffrey R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_34"/>
+        <link:link rdf:resource="#item_35"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Chemical Markup Language</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Display Type</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Left Mouse Button</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Navigation Tool</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Quantum Code</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Avogadro: an advanced semantic chemical editor, visualization, and analysis platform</dc:title>
+        <dcterms:abstract>The Avogadro project has developed an advanced molecule editor and visualizer designed for cross-platform use in computational chemistry, molecular modeling, bioinformatics, materials science, and related areas. It offers flexible, high quality rendering, and a powerful plugin architecture. Typical uses include building molecular structures, formatting input files, and analyzing output of a wide variety of computational chemistry packages. By using the CML file format as its native document type, Avogadro seeks to enhance the semantic accessibility of chemical data types.</dcterms:abstract>
+        <dc:date>2012-08-13</dc:date>
+        <z:shortTitle>Avogadro</z:shortTitle>
+        <z:libraryCatalog>BioMed Central</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://doi.org/10.1186/1758-2946-4-17</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-04-06 16:09:02</dcterms:dateSubmitted>
+        <bib:pages>17</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1758-2946">
+        <prism:volume>4</prism:volume>
+        <dc:title>Journal of Cheminformatics</dc:title>
+        <dc:identifier>DOI 10.1186/1758-2946-4-17</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>Journal of Cheminformatics</dcterms:alternative>
+        <dc:identifier>ISSN 1758-2946</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_34">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://jcheminf.biomedcentral.com/counter/pdf/10.1186/1758-2946-4-17</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-04-06 16:09:07</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_35">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://jcheminf.biomedcentral.com/articles/10.1186/1758-2946-4-17</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-04-06 16:09:09</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.science.org/doi/10.1126/science.1182435">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>328</prism:volume>
+                <dc:title>Science</dc:title>
+                <dc:identifier>DOI 10.1126/science.1182435</dc:identifier>
+                <prism:number>5978</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yaron</foaf:surname>
+                        <foaf:givenName>David</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Karabinos</foaf:surname>
+                        <foaf:givenName>Michael</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lange</foaf:surname>
+                        <foaf:givenName>Donovan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Greeno</foaf:surname>
+                        <foaf:givenName>James G.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Leinhardt</foaf:surname>
+                        <foaf:givenName>Gaea</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_37"/>
+        <dc:title>The ChemCollective—Virtual Labs for Introductory Chemistry Courses</dc:title>
+        <dc:date>2010-04-30</dc:date>
+        <z:libraryCatalog>science.org (Atypon)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.science.org/doi/10.1126/science.1182435</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-04-06 16:11:45</dcterms:dateSubmitted>
+        <dc:description>Publisher: American Association for the Advancement of Science</dc:description>
+        <bib:pages>584-585</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_37">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.science.org/doi/pdf/10.1126/science.1182435</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-04-06 16:11:47</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_39">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:24562335"/>
+        <link:link rdf:resource="#item_38"/>
+        <dc:title>[No title found]</dc:title>
+        <dcterms:abstract>Cloud computing has emerged as a transformative technology in the field of chemistry, offering unprecedented computational power, data storage, collaborative capabilities, and enhancing the performance of spectroscopic techniques. The integration of cloud-based platforms in chemical research facilitates complex molecular simulations, big data analysis, and real-time collaboration among researchers worldwide. By leveraging cloud infrastructure, chemists can perform highthroughput virtual screenings, predict molecular behaviors, and model chemical reactions with greater efficiency and scalability than traditional computing resources allow. This democratization of computational resources has accelerated drug discovery, materials science, and environmental chemistry, enabling even smaller research teams to access cutting-edge tools and datasets. Additionally, cloud computing enhances the reproducibility of experiments by standardizing data management and computational workflows. We expect the role of cloud computing in chemistry to grow as the field continues to evolve, driving innovations and fostering a more collaborative, data-driven approach to chemical research.</dcterms:abstract>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:24562335">
+        <dc:title>International Journal of Construction Engineering and Planning</dc:title>
+        <dcterms:alternative>IJCEP</dcterms:alternative>
+        <dc:identifier>ISSN 24562335</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_38">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://journalspub.com/wp-content/uploads/2025/01/1-15-MS-Role-of-Cloud-Computing-in-Chemistry-PUBLISH.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-04-06 16:45:20</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://doi.org/10.1186/s13321-020-00481-0">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>13</prism:volume>
+                <dc:title>Journal of Cheminformatics</dc:title>
+                <dc:identifier>DOI 10.1186/s13321-020-00481-0</dc:identifier>
+                <prism:number>1</prism:number>
+                <dcterms:alternative>Journal of Cheminformatics</dcterms:alternative>
+                <dc:identifier>ISSN 1758-2946</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Huang</foaf:surname>
+                        <foaf:givenName>Yu-Chieh</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tremouilhac</foaf:surname>
+                        <foaf:givenName>Pierre</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nguyen</foaf:surname>
+                        <foaf:givenName>An</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jung</foaf:surname>
+                        <foaf:givenName>Nicole</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bräse</foaf:surname>
+                        <foaf:givenName>Stefan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_41"/>
+        <link:link rdf:resource="#item_42"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Analysis</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>IR</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>JCAMP-DX</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Mass spectrometry</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>NMR</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Spectroscopy</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>ChemSpectra: a web-based spectra editor for analytical data</dc:title>
+        <dcterms:abstract>ChemSpectra, a web-based software to visualize and analyze spectroscopic data, integrating solutions for infrared spectroscopy (IR), mass spectrometry (MS), and one-dimensional 1H and 13C NMR (proton and carbon nuclear magnetic resonance) spectroscopy, is described. ChemSpectra serves as web-based tool for the analysis of the most often used types of one-dimensional spectroscopic data in synthetic (organic) chemistry research. It was developed to support in particular processes for the use of open file formats which enable the work according to the FAIR data principles. The software can deal with the open file formats JCAMP-DX (IR, MS, NMR) and mzML (MS) proposing these data file types to gain interoperable data. ChemSpectra can be extended to read also other formats as exemplified by selected proprietary mass spectrometry data files of type RAW and NMR spectra files of type FID. The JavaScript-based editor can be integrated with other software, as demonstrated by integration into the Chemotion electronic lab notebook (ELN) and Chemotion repository, demonstrating the implementation into a digital work environment that offers additional functionality and sustainable research data management options. ChemSpectra supports different functions for working with spectroscopic data such as zoom functions, peak picking and automatic peak detection according to a default or manually defined threshold. NMR specific functions include the definition of a reference signal, the integration of signals, coupling constant calculation and multiplicity assignment. Embedded into a web application such as an ELN or a repository, the editor can also be used to generate an association of spectra to a sample and a file management. The file management supports the storage of the original spectra along with the last edited version and an automatically generated image of the spectra in png format. To maximize the benefit of the spectra editor for e.g. ELN users, an automated procedure for the transfer of the detected or manually chosen signals to the ELN was implemented. ChemSpectra is released under the AGPL license to encourage its re-use and further developments by the community.</dcterms:abstract>
+        <dc:date>2021-02-10</dc:date>
+        <z:shortTitle>ChemSpectra</z:shortTitle>
+        <z:libraryCatalog>BioMed Central</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://doi.org/10.1186/s13321-020-00481-0</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-04-06 16:49:50</dcterms:dateSubmitted>
+        <bib:pages>8</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_41">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://jcheminf.biomedcentral.com/counter/pdf/10.1186/s13321-020-00481-0</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-04-06 16:49:54</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_42">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://jcheminf.biomedcentral.com/articles/10.1186/s13321-020-00481-0</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-04-06 16:49:58</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://arxiv.org/abs/1407.4027">
+        <z:itemType>preprint</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>arXiv</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Banda</foaf:surname>
+                        <foaf:givenName>Peter</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Blount</foaf:surname>
+                        <foaf:givenName>Drew</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Teuscher</foaf:surname>
+                        <foaf:givenName>Christof</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_44"/>
+        <link:link rdf:resource="#item_45"/>
+        <link:link rdf:resource="#item_46"/>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Computer Science - Computational Engineering, Finance, and Science</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Physics - Chemical Physics</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Quantitative Biology - Molecular Networks</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>COEL: A Web-based Chemistry Simulation Framework</dc:title>
+        <dcterms:abstract>The chemical reaction network (CRN) is a widely used formalism to describe macroscopic behavior of chemical systems. Available tools for CRN modelling and simulation require local access, installation, and often involve local file storage, which is susceptible to loss, lacks searchable structure, and does not support concurrency. Furthermore, simulations are often single-threaded, and user interfaces are non-trivial to use. Therefore there are significant hurdles to conducting efficient and collaborative chemical research. In this paper, we introduce a new enterprise chemistry simulation framework, COEL, which addresses these issues. COEL is the first web-based framework of its kind. A visually pleasing and intuitive user interface, simulations that run on a large computational grid, reliable database storage, and transactional services make COEL ideal for collaborative research and education. COEL's most prominent features include ODE-based simulations of chemical reaction networks and multicompartment reaction networks, with rich options for user interactions with those networks. COEL provides DNA-strand displacement transformations and visualization (and is to our knowledge the first CRN framework to do so), GA optimization of rate constants, expression validation, an application-wide plotting engine, and SBML/Octave/Matlab export. We also present an overview of the underlying software and technologies employed and describe the main architectural decisions driving our development. COEL is available at http://coel-sim.org for selected research teams only. We plan to provide a part of COEL's functionality to the general public in the near future.</dcterms:abstract>
+        <dc:date>2014-07-15</dc:date>
+        <z:shortTitle>COEL</z:shortTitle>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/1407.4027</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-04-06 16:56:25</dcterms:dateSubmitted>
+        <dc:description>arXiv:1407.4027 [cs]</dc:description>
+        <dc:identifier>DOI 10.48550/arXiv.1407.4027</dc:identifier>
+        <prism:number>arXiv:1407.4027</prism:number>
+    </rdf:Description>
+    <bib:Memo rdf:about="#item_44">
+       <rdf:value>Comment: 23 pages, 12 figures, 1 table</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_45">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Preprint PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/pdf/1407.4027v1</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-04-06 16:56:26</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_46">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/1407.4027</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-04-06 16:56:31</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.spectroscopyonline.com/view/artificial-intelligence-in-analytical-spectroscopy-part-ii-examples-in-spectroscopy">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                   <bib:Series><dc:title>June 2023</dc:title></bib:Series>
+                </dcterms:isPartOf>
+                <prism:volume>38</prism:volume>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Workman</foaf:surname>
+                        <foaf:givenName>Jr</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mark</foaf:surname>
+                        <foaf:givenName>Howard</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_48"/>
+        <dc:title>Artificial Intelligence in Analytical Spectroscopy, Part II: Examples in Spectroscopy</dc:title>
+        <dcterms:abstract>In Part I (February 2023) of this two-part series on artificial intelligence (AI), and its subfield machine learning (ML), we presented the variety of chemometric algorithms used to compare AI, ML, and chemometrics. These algorithms included those used for classification, regression, clustering, ensemble learning, signal processing, and component analysis. Now, in Part II, we discuss the applications of AI to electronic and vibrational spectroscopy. We also touch on some applications of deep learning (DL), which is a subfield of machine learning where more complex artificial neural networks (ANNs) with more hidden layers are used. This column article includes a number of selected references that discuss the application of AI in analytical chemistry and in molecular spectroscopy. We give a few early and late examples of AI and ML as applied to different vibrational spectroscopy methods, such as Raman, infrared (FT-IR), near-infrared (NIR), and ultraviolet–visible (UV-vis) spectroscopic techniques. This article is intended only as a sampling of the numerous research manuscripts addressing this subject.</dcterms:abstract>
+        <dc:date>June 2, 2023</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Artificial Intelligence in Analytical Spectroscopy, Part II</z:shortTitle>
+        <z:libraryCatalog>www.spectroscopyonline.com</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.spectroscopyonline.com/view/artificial-intelligence-in-analytical-spectroscopy-part-ii-examples-in-spectroscopy</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-04-06 16:58:21</dcterms:dateSubmitted>
+        <dc:description>Publisher: MJH Life Sciences</dc:description>
+        <bib:pages>10-15</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_48">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://cdn.sanity.io/files/0vv8moc6/spectroscopy/b200ce3ed9da61f1ebcae7935212a34802561d63.pdf/Spectroscopy_June2023.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-04-06 16:58:23</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.annualreviews.org/content/journals/10.1146/annurev-physchem-042018-052331">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0066-426X,%201545-1593"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Noé</foaf:surname>
+                        <foaf:givenName>Frank</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tkatchenko</foaf:surname>
+                        <foaf:givenName>Alexandre</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Müller</foaf:surname>
+                        <foaf:givenName>Klaus-Robert</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Clementi</foaf:surname>
+                        <foaf:givenName>Cecilia</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_50"/>
+        <link:link rdf:resource="#item_51"/>
+        <dc:title>Machine Learning for Molecular Simulation</dc:title>
+        <dcterms:abstract>Machine learning (ML) is transforming all areas of science. The complex and time-consuming calculations in molecular simulations are particularly suitable for an ML revolution and have already been profoundly affected by the application of existing ML methods. Here we review recent ML methods for molecular simulation, with particular focus on (deep) neural networks for the prediction of quantum-mechanical energies and forces, on coarse-grained molecular dynamics, on the extraction of free energy surfaces and kinetics, and on generative network approaches to sample molecular equilibrium structures and compute thermodynamics. To explain these methods and illustrate open methodological problems, we review some important principles of molecular physics and describe how they can be incorporated into ML structures. Finally, we identify and describe a list of open challenges for the interface between ML and molecular simulation.</dcterms:abstract>
+        <dc:date>2020/04/20</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>www.annualreviews.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.annualreviews.org/content/journals/10.1146/annurev-physchem-042018-052331</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-04-06 17:43:01</dcterms:dateSubmitted>
+        <dc:description>Publisher: Annual Reviews</dc:description>
+        <bib:pages>361-390</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0066-426X,%201545-1593">
+        <prism:volume>71</prism:volume>
+        <dc:title>Annual Review of Physical Chemistry</dc:title>
+        <dc:identifier>DOI 10.1146/annurev-physchem-042018-052331</dc:identifier>
+        <prism:number>Volume 71, 2020</prism:number>
+        <dc:identifier>ISSN 0066-426X, 1545-1593</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_50">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.annualreviews.org/content/journals/10.1146/annurev-physchem-042018-052331</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-04-06 17:43:13</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_51">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Submitted Version</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/pdf/1911.02792</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-04-06 17:43:32</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.nature.com/articles/s41586-021-03819-2">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1476-4687"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jumper</foaf:surname>
+                        <foaf:givenName>John</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Evans</foaf:surname>
+                        <foaf:givenName>Richard</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pritzel</foaf:surname>
+                        <foaf:givenName>Alexander</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Green</foaf:surname>
+                        <foaf:givenName>Tim</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Figurnov</foaf:surname>
+                        <foaf:givenName>Michael</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ronneberger</foaf:surname>
+                        <foaf:givenName>Olaf</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tunyasuvunakool</foaf:surname>
+                        <foaf:givenName>Kathryn</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bates</foaf:surname>
+                        <foaf:givenName>Russ</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Žídek</foaf:surname>
+                        <foaf:givenName>Augustin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Potapenko</foaf:surname>
+                        <foaf:givenName>Anna</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bridgland</foaf:surname>
+                        <foaf:givenName>Alex</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Meyer</foaf:surname>
+                        <foaf:givenName>Clemens</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kohl</foaf:surname>
+                        <foaf:givenName>Simon A. A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ballard</foaf:surname>
+                        <foaf:givenName>Andrew J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cowie</foaf:surname>
+                        <foaf:givenName>Andrew</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Romera-Paredes</foaf:surname>
+                        <foaf:givenName>Bernardino</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nikolov</foaf:surname>
+                        <foaf:givenName>Stanislav</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jain</foaf:surname>
+                        <foaf:givenName>Rishub</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Adler</foaf:surname>
+                        <foaf:givenName>Jonas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Back</foaf:surname>
+                        <foaf:givenName>Trevor</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Petersen</foaf:surname>
+                        <foaf:givenName>Stig</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Reiman</foaf:surname>
+                        <foaf:givenName>David</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Clancy</foaf:surname>
+                        <foaf:givenName>Ellen</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zielinski</foaf:surname>
+                        <foaf:givenName>Michal</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Steinegger</foaf:surname>
+                        <foaf:givenName>Martin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pacholska</foaf:surname>
+                        <foaf:givenName>Michalina</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Berghammer</foaf:surname>
+                        <foaf:givenName>Tamas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bodenstein</foaf:surname>
+                        <foaf:givenName>Sebastian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Silver</foaf:surname>
+                        <foaf:givenName>David</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vinyals</foaf:surname>
+                        <foaf:givenName>Oriol</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Senior</foaf:surname>
+                        <foaf:givenName>Andrew W.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kavukcuoglu</foaf:surname>
+                        <foaf:givenName>Koray</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kohli</foaf:surname>
+                        <foaf:givenName>Pushmeet</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hassabis</foaf:surname>
+                        <foaf:givenName>Demis</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_53"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computational biophysics</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Machine learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Protein structure predictions</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Structural biology</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Highly accurate protein structure prediction with AlphaFold</dc:title>
+        <dcterms:abstract>Proteins are essential to life, and understanding their structure can facilitate a mechanistic understanding of their function. Through an enormous experimental effort1–4, the structures of around 100,000 unique proteins have been determined5, but this represents a small fraction of the billions of known protein sequences6,7. Structural coverage is bottlenecked by the months to years of painstaking effort required to determine a single protein structure. Accurate computational approaches are needed to address this gap and to enable large-scale structural bioinformatics. Predicting the three-dimensional structure that a protein will adopt based solely on its amino acid sequence—the structure prediction component of the ‘protein folding problem’8—has been an important open research problem for more than 50 years9. Despite recent progress10–14, existing methods fall far short of atomic accuracy, especially when no homologous structure is available. Here we provide the first computational method that can regularly predict protein structures with atomic accuracy even in cases in which no similar structure is known. We validated an entirely redesigned version of our neural network-based model, AlphaFold, in the challenging 14th Critical Assessment of protein Structure Prediction (CASP14)15, demonstrating accuracy competitive with experimental structures in a majority of cases and greatly outperforming other methods. Underpinning the latest version of AlphaFold is a novel machine learning approach that incorporates physical and biological knowledge about protein structure, leveraging multi-sequence alignments, into the design of the deep learning algorithm.</dcterms:abstract>
+        <dc:date>2021-08</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>www.nature.com</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.nature.com/articles/s41586-021-03819-2</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-04-06 17:52:42</dcterms:dateSubmitted>
+        <dc:rights>2021 The Author(s)</dc:rights>
+        <dc:description>Publisher: Nature Publishing Group</dc:description>
+        <bib:pages>583-589</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1476-4687">
+        <prism:volume>596</prism:volume>
+        <dc:title>Nature</dc:title>
+        <dc:identifier>DOI 10.1038/s41586-021-03819-2</dc:identifier>
+        <prism:number>7873</prism:number>
+        <dc:identifier>ISSN 1476-4687</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_53">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.nature.com/articles/s41586-021-03819-2.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-04-06 17:52:46</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://link.aps.org/doi/10.1103/PhysRevLett.108.058301">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>108</prism:volume>
+                <dc:title>Physical Review Letters</dc:title>
+                <dc:identifier>DOI 10.1103/PhysRevLett.108.058301</dc:identifier>
+                <prism:number>5</prism:number>
+                <dcterms:alternative>Phys. Rev. Lett.</dcterms:alternative>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rupp</foaf:surname>
+                        <foaf:givenName>Matthias</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tkatchenko</foaf:surname>
+                        <foaf:givenName>Alexandre</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Müller</foaf:surname>
+                        <foaf:givenName>Klaus-Robert</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>von Lilienfeld</foaf:surname>
+                        <foaf:givenName>O. Anatole</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_55"/>
+        <link:link rdf:resource="#item_56"/>
+        <dc:title>Fast and Accurate Modeling of Molecular Atomization Energies with Machine Learning</dc:title>
+        <dcterms:abstract>We introduce a machine learning model to predict atomization energies of a diverse set of organic molecules, based on nuclear charges and atomic positions only. The problem of solving the molecular Schrödinger equation is mapped onto a nonlinear statistical regression problem of reduced complexity. Regression models are trained on and compared to atomization energies computed with hybrid density-functional theory. Cross validation over more than seven thousand organic molecules yields a mean absolute error of ∼10 kcal/mol. Applicability is demonstrated for the prediction of molecular atomization potential energy curves.</dcterms:abstract>
+        <dc:date>2012-01-31</dc:date>
+        <z:libraryCatalog>APS</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.aps.org/doi/10.1103/PhysRevLett.108.058301</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-04-06 17:57:35</dcterms:dateSubmitted>
+        <dc:description>Publisher: American Physical Society</dc:description>
+        <bib:pages>058301</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_55">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Accepted Version</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.aps.org/accepted/10.1103/PhysRevLett.108.058301</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-04-06 17:57:40</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_56">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>APS Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.108.058301</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-04-06 17:57:42</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+</rdf:RDF>
